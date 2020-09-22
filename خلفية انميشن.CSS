@@ -1,0 +1,17 @@
+
+body*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(125ged,#2c3e50,#27ae60,#2980b9,#f5432f,#8e44ad,);
+    background-size: 400%;
+    animation: bgnanimation  15s infinite;
+    }
+    @keyframes bgnanimation {
+        0% {background-position: 0% 50%;
+        }
+        50% {background-position: 100% 50%;
+        }
+        100% {background-position: 0% 50%;
+        }
+        
+    }
